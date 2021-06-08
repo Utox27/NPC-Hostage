@@ -162,12 +162,12 @@ Citizen.CreateThread(function()
 			if IsHostageGrabbed == false then
 				table.insert(elements, {label = Config.msgs.drag, value = 'drag'})
 			else
-				table.insert(elements, {label = Config.msgs.letGo, value = 'drag'})
+				table.insert(elements, {label = Config.msgs.letsGo, value = 'drag'})
 			end
 			if IsPlayerShielding == false then
 				table.insert(elements, {label = Config.msgs.bodyShield, value = 'shield'})
 			else
-				table.insert(elements, {label = Config.msgs.letGo, value = 'shield'})
+				table.insert(elements, {label = Config.msgs.letsGo, value = 'shield'})
 			end
 			if HostageInVehicle == false then
 				table.insert(elements, {label = Config.msgs.putInVehicle, value = 'vehicleseat'})
